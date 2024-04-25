@@ -269,6 +269,7 @@ span {
     flex-direction: column;
     gap: 30px;
     font-size: 1.5rem;
+    /* border: 2px solid; */
 }
 
 .heading-box {
@@ -297,7 +298,16 @@ span {
     width: 70%;
     margin: 20px;
 }
-
+.qr-code-box{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+.qr-code img{
+    width: 100px;
+}
 .bottom-mail-nav {
     bottom: 20px;
     right: 30px;
@@ -370,6 +380,9 @@ span {
     }
     .info1{
         padding: 20px 0;
+    }
+    .qr-code img{
+        width: 12vw;
     }
 }
 @media (max-width: 627px) {
