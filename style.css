@@ -344,10 +344,7 @@ span {
     }
 }
 @media (max-width:780px) {
-    .youtube-video iframe{
-        width: 40vw;
-        height: 18vw;
-    }
+    
     .inner-info{
         gap: 20px;
     }
