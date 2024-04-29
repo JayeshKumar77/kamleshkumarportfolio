@@ -28,7 +28,10 @@ html {
 }
 
 section {
-    background: var(--bg-color);
+    background: black;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* backdrop-filter: ; */
     /* border: 2px solid; */
     height: 90vh;
     display: flex;
@@ -36,11 +39,21 @@ section {
     align-items: center;
     position: relative;
 }
+
+.bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.4;
+    width: 100%;
+}
 .inner-home{
     /* border: 2px solid; */
     display: flex;
     gap: 100px;
     margin: 40px;
+    z-index: 1;
 }
 
 .mail-nav {
