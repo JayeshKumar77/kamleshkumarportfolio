@@ -28,9 +28,10 @@ html {
 }
 
 section {
-    background: black;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     /* backdrop-filter: ; */
     /* border: 2px solid; */
     height: 90vh;
@@ -40,20 +41,29 @@ section {
     position: relative;
 }
 
-.bg img{
+.bg-black{
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
     position: absolute;
+    top: 0;
+    /*
     top: 0;
     left: 0;
     height: 100%;
-    opacity: 0.4;
-    width: 100%;
+    opacity: 0.4; */
+    /* filter: blur(1px); */
+    /* background-size: cover;
+    background-position: center center;
+    width: 100%; */
 }
 .inner-home{
     /* border: 2px solid; */
     display: flex;
     gap: 100px;
     margin: 40px;
-    z-index: 1;
+    z-index: 10;
 }
 
 .mail-nav {
