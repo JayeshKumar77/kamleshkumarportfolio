@@ -41,7 +41,7 @@ section {
     position: relative;
 }
 
-.bg-black{
+.bg-black {
     height: 100%;
     width: 100%;
     opacity: 0.7;
@@ -58,7 +58,8 @@ section {
     background-position: center center;
     width: 100%; */
 }
-.inner-home{
+
+.inner-home {
     /* border: 2px solid; */
     display: flex;
     gap: 100px;
@@ -168,6 +169,7 @@ span {
     justify-content: center;
     padding: 60px;
 }
+
 .academic {
     /* border: 2px solid; */
     width: 60vw;
@@ -237,6 +239,7 @@ span {
     display: none;
 }
 
+
 .slide img {
     width: 100%;
     height: 100%;
@@ -244,7 +247,8 @@ span {
 
 .slider svg {
     filter: invert();
-    stroke-width: 3; 
+    stroke-width: 3;
+
 }
 
 .prev svg {
@@ -253,6 +257,7 @@ span {
 
 .slider button {
     display: none;
+    cursor: pointer;
 }
 
 .slider:hover {
@@ -321,16 +326,19 @@ span {
     width: 70%;
     margin: 20px;
 }
-.qr-code-box{
+
+.qr-code-box {
     /* border: 2px solid black; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 20px;
 }
-.qr-code img{
+
+.qr-code img {
     width: 100px;
 }
+
 .bottom-mail-nav {
     bottom: 20px;
     right: 30px;
@@ -345,34 +353,41 @@ span {
     .info1 {
         height: auto;
     }
-    .home-img img{
+
+    .home-img img {
         width: 250px;
     }
 }
+
 @media (max-width:1040px) {
-    html{
+    html {
         font-size: 40%;
     }
-    .youtube-video iframe{
+
+    .youtube-video iframe {
         width: 50vw;
         height: 28vw;
     }
-    .slider{
+
+    .slider {
         width: 800px;
     }
 }
+
 @media (max-width: 918px) {
-    .slider{
+    .slider {
         width: 400px;
     }
 }
+
 @media (max-width:780px) {
-    
-    .inner-info{
+
+    .inner-info {
         gap: 20px;
     }
-    
+
 }
+
 @media (max-width: 769px) {
     .slider button {
         display: block;
@@ -383,116 +398,145 @@ span {
         border: none;
         width: 10%;
     }
+
     .slider svg {
         stroke-width: 1.5;
     }
-    .inner-home{
+
+    .inner-home {
         gap: 20px;
     }
-    .inner-home img{
+
+    .inner-home img {
         width: 200px;
     }
-    .slider{
+
+    .slider {
         width: 800px;
     }
-    .academic{
+
+    .academic {
         width: 90vw;
     }
-    .info1{
+
+    .info1 {
         padding: 20px 0;
     }
-    .qr-code img{
+
+    .qr-code img {
         width: 12vw;
     }
 }
+
 @media (max-width: 627px) {
-    html{
+    html {
         font-size: 30%;
     }
-    .inner-home{
+
+    .inner-home {
         gap: 20px;
     }
-    .inner-home img{
+
+    .inner-home img {
         width: 160px;
     }
-    .social-media a{
+
+    .social-media a {
         width: 25px;
         height: 25px;
         border-width: 1px;
     }
-    .social-media svg{
+
+    .social-media svg {
         width: 15px;
     }
 
-    
+
 }
+
 @media (max-width: 600px) {
-    
-    .inner-info{
+
+    .inner-info {
         flex-direction: column;
     }
-    .slidertxt{
+
+    .slidertxt {
         width: 100%;
     }
-    .youtube-video iframe{
+
+    .youtube-video iframe {
         width: 60vw;
         height: 38vw;
     }
-    .youtube-discr{
+
+    .youtube-discr {
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .slider{
+
+    .slider {
         width: 100%;
     }
-    .inner-home{
+
+    .inner-home {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    .social-media{
+
+    .social-media {
         justify-content: center;
     }
-    .inner-info4{
+
+    .inner-info4 {
         gap: 15px;
         width: 85vw;
         margin: 25px;
     }
-    .inner-box h3{
+
+    .inner-box h3 {
         padding: 7px 12px;
     }
-    .inner-box p{
+
+    .inner-box p {
         margin: 10px;
     }
-    .bottom-mail-nav{
+
+    .bottom-mail-nav {
         right: 20px;
         bottom: 10px;
     }
-    .inner-info4{
+
+    .inner-info4 {
         margin-bottom: 40px;
     }
 }
+
 @media (max-width: 370px) {
-    .academicList{
+    .academicList {
         margin: 5px;
         line-height: 2;
     }
 }
+
 @media (max-width: 330px) {
-    html{
+    html {
         font-size: 20%;
     }
-    .inner-info{
+
+    .inner-info {
         margin: 20px;
     }
-    .mail-nav svg{
+
+    .mail-nav svg {
         width: 15px;
     }
 }
+
 @media (max-width:250px) {
-    .inner-box{
+    .inner-box {
         margin-left: 9px;
     }
 }
