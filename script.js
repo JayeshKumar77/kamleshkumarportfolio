@@ -1,5 +1,6 @@
 async function getImages() {
   let a = await fetch("/img/slider/");
+  console.log(a)
   let responce = await a.text();
   let div = document.createElement("div");
   div.innerHTML = responce;
